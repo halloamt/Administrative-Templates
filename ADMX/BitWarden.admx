@@ -1,0 +1,34 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.Policies.48EED088_700A_4544_B46D_22E21775823D" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="" />
+  <resources minRequiredRevision="1.0" />
+  <categories>
+    <category name="CAT_13B0A932_836F_494C_934C_65A00AFE6428" displayName="$(string.CAT_13B0A932_836F_494C_934C_65A00AFE6428)" />
+  </categories>
+  <policies>
+    <policy name="POL_85445BAD_EDF8_4860_B383_9276272319AF" class="Machine" displayName="$(string.POL_85445BAD_EDF8_4860_B383_9276272319AF)" presentation="$(presentation.POL_85445BAD_EDF8_4860_B383_9276272319AF)" key="SOFTWARE\EWS\BitWarden" valueName="Edge">
+      <parentCategory ref="CAT_13B0A932_836F_494C_934C_65A00AFE6428" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <text id="TXT_49233EF3_8383_4F87_8D00_C822301751D3" key="SOFTWARE\Policies\Microsoft\Edge\3rdparty\extensions\jbkfoedolllekgbhcbcoahefnbanhhlh\policy\environment" valueName="base" required="true" />
+      </elements>
+    </policy>
+    <policy name="POL_28EA3203_E5D9_40F7_ABB0_4D4E3FA3954E" class="Machine" displayName="$(string.POL_28EA3203_E5D9_40F7_ABB0_4D4E3FA3954E)" presentation="$(presentation.POL_28EA3203_E5D9_40F7_ABB0_4D4E3FA3954E)" key="SOFTWARE\EWS\BitWarden" valueName="Firefox">
+      <parentCategory ref="CAT_13B0A932_836F_494C_934C_65A00AFE6428" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <text id="TXT_15E4786C_F8B9_4307_80AF_C54899504EFF" key="SOFTWARE\Policies\Mozilla\Firefox\3rdparty\Extensions\{446900e4-71c2-419f-a6a7-df9c091e268b}\environment" valueName="base" required="true" />
+      </elements>
+    </policy>
+    <policy name="POL_252AE237_8575_48D0_8172_ABF4387C2CD2" class="Machine" displayName="$(string.POL_252AE237_8575_48D0_8172_ABF4387C2CD2)" presentation="$(presentation.POL_252AE237_8575_48D0_8172_ABF4387C2CD2)" key="SOFTWARE\EWS\BitWarden" valueName="Chrome">
+      <parentCategory ref="CAT_13B0A932_836F_494C_934C_65A00AFE6428" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <text id="TXT_DFF2E9DB_8C27_4D9F_AF63_3CC500104546" key="SOFTWARE\Policies\Google\Chrome\3rdparty\extensions\nngceckbapebfimnlniiiahkandclblb\policy\environment" valueName="base" />
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>

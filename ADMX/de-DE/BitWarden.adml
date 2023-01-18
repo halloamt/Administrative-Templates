@@ -1,0 +1,37 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="CAT_13B0A932_836F_494C_934C_65A00AFE6428">BitWarden</string>
+      <string id="POL_85445BAD_EDF8_4860_B383_9276272319AF">BitWarden URL Edge</string>
+      <string id="POL_28EA3203_E5D9_40F7_ABB0_4D4E3FA3954E">BitWarden URL Firefox</string>
+      <string id="POL_252AE237_8575_48D0_8172_ABF4387C2CD2">BitWarden URL Chrome</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="POL_28EA3203_E5D9_40F7_ABB0_4D4E3FA3954E">
+        <textBox refId="TXT_15E4786C_F8B9_4307_80AF_C54899504EFF">
+          <label>BitWarden URL Firefox</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="POL_85445BAD_EDF8_4860_B383_9276272319AF">
+        <textBox refId="TXT_49233EF3_8383_4F87_8D00_C822301751D3">
+          <label>BitWarden URL Edge</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="POL_252AE237_8575_48D0_8172_ABF4387C2CD2">
+        <textBox refId="TXT_DFF2E9DB_8C27_4D9F_AF63_3CC500104546">
+          <label>BitWarden URL Chrome</label>
+          <defaultValue>
+          </defaultValue>
+        </textBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>
